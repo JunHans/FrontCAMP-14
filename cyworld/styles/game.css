@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper__header {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 8px;
+
+}
+
+.title {
+    color: #55b2b4;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 7px;
+    padding-left: 5px;
+    
+}
+
+.divideline {
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+
+.wrapper__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 끝말잇기 */
+.game_container {
+    width: 222px;
+    height: 168px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px 20px 15px;
+}
+
+.game__title {
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Noto Sans KR', sans-serif;;
+}
+
+.game__subtitle {
+    font-size: 18px;
+    font-family: 'Nanum Pen Script', cursive;;
+    color: gray;
+}
+
+.word__text {
+    width: 100%; 
+    /* 이게없어서 안떨어졌었음 단어입력창이랑 검색버튼이 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.textbox {
+    width: 140px;
+    justify-content: space-between;
+}
+
+.search {
+    width: 45px;
+}
+
+.word__result {
+    height: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Black Han Sans', sans-serif;;
+    color: gray;
+}
+
+/* 로또 */
+
+.game_container__1 {
+    width: 222px;
+    height: 168px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px 20px 20px;
+}
+
+.lotto__number {
+    width: 120px;
+    height: 21px;
+    background-color: #FFE400;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.lotto__number::placeholder {
+
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: small;
+}
+
+.button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80px;
+    font-weight: bold;
+}
+
+.button:hover {
+    color: black;
+    background-color: orange;
+}

@@ -1,0 +1,75 @@
+.차트 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    background-color: chocolate;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: crimson; */
+    padding: 0px 10px 0px 10px;
+}
+
+/* 차트 세부 조정 */
+
+.left {
+    width: 170px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.left__1 {
+    /* width: 50px; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+.left__2 {
+        /* width: 50px; */
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+        background-color: blueviolet;
+}
+
+.left__3 {
+        /* width: 50px; */
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        font-size: 10px;
+        color: #0F465E;
+        background-color: silver;
+}
+
+.right {
+        width: 100px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        font-size: 10px;
+        color: #0F465E;
+        background-color: orange;
+}

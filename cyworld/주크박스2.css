@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: gainsboro; */
+}
+
+.wrapper__header {
+    width: 100%;
+    height: 203px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contents__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.title {
+    color: #55b2b4;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 8px;
+    padding-left: 5px;
+}
+
+.divideline {
+    width: 100%;
+    border-top: 1px solid gray;
+    margin: 6px 0px;
+}
+
+.song__body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.song__jacket {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 10px 10px 10px;
+    /* background-color: brown; */
+}
+
+/* .song__name {
+    width: 100%;
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 11px 10px 10px 10px;
+    background-color: bisque;
+    font-size: 11px;
+} */
+
+.Y_box {
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+.눈의꽃_box {
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.사랑했나봐_box {
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+
+.Y {
+    height: 120px;
+}
+
+.눈의꽃 {
+    height: 120px;
+}
+
+.사랑했나봐 {
+    height: 120px;
+}
+
+.song__name-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.song__name-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.song__name-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.song_1 {
+    height: 15px;
+    font-size: 11px;
+    color:#0F465E;
+    font-weight: bold;
+}
+
+.song_2 {
+    height: 15px;
+    font-size: 11px;
+    color:#0F465E;
+    font-weight: bold;
+}
+
+.song_3 {
+    height: 15px;
+    font-size: 11px;
+    color:#0F465E;
+    font-weight: bold;
+}
+
+.song_1-1 {
+    height: 13px;
+    font-size: 10px;
+    color: #999999;
+    font-weight: bold;
+}
+
+.song_2-1 {
+    height: 13px;
+    font-size: 10px;
+    color: #999999;
+    font-weight: bold;
+}
+
+.song_3-1 {
+    height: 13px;
+    font-size: 10px;
+    color: #999999;
+    font-weight: bold;
+}
+
+
+
+.contents__body {
+    font-size: 11px;
+    color: #999999;
+}
+
+.wrapper__body {
+    height: 146px;
+    width: 464px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: burlywood; */
+}
+
+.BGM__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* 차트 */
+
+.차트 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    /* background-color: chocolate; */
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: crimson; */
+    padding: 0px 10px 0px 10px;
+}
+
+/* 차트 세부 조정 */
+
+.left {
+    width: 170px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.left__1 {
+    /* width: 50px; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: bisque; */
+}
+
+.left__2 {
+        /* width: 50px; */
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+        /* background-color: blueviolet; */
+}
+
+.left__3 {
+        /* width: 50px; */
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        font-size: 10px;
+        color: #0F465E;
+        /* background-color: silver; */
+}
+
+.right {
+        width: 100px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        font-size: 10px;
+        color: #0F465E;
+        /* background-color: orange; */
+}
