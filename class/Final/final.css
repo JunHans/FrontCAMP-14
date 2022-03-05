@@ -23,11 +23,16 @@
     background-color: white;
     border: 1px solid skyblue;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px 10px skyblue;
+    box-shadow: 7px 7px 39px 0px #0068FF;
     padding: 30px 0px 30px 0px;
 }
 
 .제목 {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
     color: #0068FF;
     font-size: 26px;
     font-weight: 700;
@@ -45,11 +50,11 @@
 .mail {
     width: 300px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .phone__number {
-    width: 300px
+    width: 300px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -57,8 +62,8 @@
 }
 
 .number {
-    width: 53px;
-    outline: 1px solid gray;
+    width: 80px;
+    height: 35px;
     border-radius: 7px;
 }
 
@@ -66,16 +71,34 @@
     width: 300px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 }
 
 .button__1 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding: 0px 0px 0px 100px;
 }
 
 .button__2 {
+    width: 100px;
+    height: 24px;
     border-radius: 5px;
+}
+
+.button__2:hover {
+    color: black;
+    background-color: skyblue;
+}
+
+.timer {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* background-color: #0068FF; */
+    padding: 0px 30px 0px 0px;
 }
 
 .locate {
@@ -85,16 +108,27 @@
 .옵션 {
     width: 300px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .성별 {
     font-size: 12px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .가입하기 {
     width: 300px;
     height: 40px;
+    border-radius: 7px;
+}
+
+.가입하기:hover {
+    color: black;
+    background-color: skyblue;
 }
 
 .divideline {
